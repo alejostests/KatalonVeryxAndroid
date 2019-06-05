@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 int n = 0
 
-Mobile.startApplication('E:\\Katalon projects\\APK\'s\\com.takeda.Veryx.apk', true)
+Mobile.startApplication('APK\\com.takeda.Veryx.apk', true)
 
 Mobile.tap(findTestObject('Login_OR/android.view.ViewGroup13'), 10)
 
@@ -37,7 +37,7 @@ Mobile.takeScreenshot(('Screenshots\\Login\\Login' + n) + '.png')
 
 n++
 
-Mobile.setText(findTestObject('Login_OR/android.view.ViewGroup15'), 'alejo@test.com', 0)
+Mobile.setText(findTestObject('Login_OR/android.view.ViewGroup15'), 'alejostests@gmail.com', 0)
 
 Mobile.hideKeyboard()
 
@@ -45,7 +45,7 @@ Mobile.takeScreenshot(('Screenshots\\Login\\Login' + n) + '.png')
 
 n++
 
-Mobile.setText(findTestObject('Login_OR/android.view.ViewGroup23'), 'pass', 0)
+Mobile.setText(findTestObject('Login_OR/android.view.ViewGroup23'), 'Inicio.123', 0)
 
 Mobile.hideKeyboard()
 
@@ -59,9 +59,11 @@ Mobile.takeScreenshot(('Screenshots\\Login\\Login' + n) + '.png')
 
 n++
 
-Mobile.tap(findTestObject('Login_OR/android.view.ViewGroup31'), 0)
+Mobile.tap(findTestObject('Login_OR/android.view.ViewGroup30 (1)'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Login_OR/android.widget.ImageView0'), 10)
+Mobile.tapAtPosition(114, 859)
+
+Mobile.waitForElementPresent(findTestObject('Login_OR/android.widget.TextView3 - Solicitar Prueba'), 10)
 
 Mobile.takeScreenshot(('Screenshots\\Login\\Login' + n) + '.png')
 

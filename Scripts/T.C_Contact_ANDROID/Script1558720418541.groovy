@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 int n = 0
 
-Mobile.startApplication('E:\\Katalon projects\\APK\'s\\com.takeda.Veryx.apk', true)
+Mobile.startApplication('APK\\com.takeda.Veryx.apk', true)
 
 Mobile.tap(findTestObject('Contact_OR/android.view.ViewGroup13'), 0)
 

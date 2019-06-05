@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 int n = 0
 
-Mobile.startApplication('E:\\Katalon projects\\APK\'s\\com.takeda.Veryx.apk', true)
+Mobile.startApplication('APK\\com.takeda.Veryx.apk', true)
 
 Mobile.tap(findTestObject('Register_OR/android.view.ViewGroup13'), 0)
 
@@ -119,7 +119,7 @@ n++
 
 int tapPositionHeight = Mobile.getDeviceHeight() - (Mobile.getDeviceHeight() * 0.05)
 
-int tapPositionWidth = Mobile.getDeviceWidth() / 2;
+int tapPositionWidth = Mobile.getDeviceWidth() / 2
 
 Mobile.tapAtPosition(tapPositionWidth, tapPositionHeight)
 
