@@ -109,7 +109,7 @@
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>314</value>
+      <value>302</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
