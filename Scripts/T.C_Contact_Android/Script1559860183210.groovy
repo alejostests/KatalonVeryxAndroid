@@ -15,9 +15,13 @@ import internal.GlobalVariable as GlobalVariable
 
 int n = 0
 
-Mobile.startApplication('E:\\Katalon projects\\KatalonVeryxAndroid\\APK\\com.takeda.Veryx.apk', true)
+Mobile.startApplication('APK\\com.takeda.Veryx.apk', true)
+
+Mobile.waitForElementPresent(findTestObject('Contact_OR/android.widget.TextView9 - Close Section'), 5)
 
 Mobile.tap(findTestObject('Contact_OR/android.view.ViewGroup13'), 5)
+
+Mobile.waitForElementPresent(findTestObject('Contact_OR/android.widget.TextView9 - Close Section'), 5)
 
 Mobile.setText(findTestObject('Contact_OR/android.view.ViewGroup15'), 'alejostests@gmail.com', 5)
 
