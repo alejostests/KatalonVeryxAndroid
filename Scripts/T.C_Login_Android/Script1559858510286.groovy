@@ -17,6 +17,8 @@ int n = 0
 
 Mobile.startApplication('E:\\Katalon projects\\KatalonVeryxAndroid\\APK\\com.takeda.Veryx.apk', true)
 
+Mobile.waitForElementPresent(findTestObject('Login_OR/android.widget.TextView3 - Solicitar Prueba'), 5)
+
 Mobile.tap(findTestObject('Login_OR/android.view.ViewGroup13'), 5)
 
 Mobile.setText(findTestObject('Login_OR/android.view.ViewGroup15'), 'alejo', 5)
